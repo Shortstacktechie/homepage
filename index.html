@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="sodiji mosope">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+        <div class="container2 ">
+            <!-- <span class="sp1">
+                <svg width="950" height="280" xmlns="http://www.w3.org/2000/svg">
+                    <path id="curve" d="M 10,120 Q 150,0 290,120" fill="transparent" stroke="none"/>
+                    <text font-size="3rem" fill="red" class="textlogo">
+                        <textPath href="#curve" startOffset="50%" text-anchor="middle">
+                            NETFLIX
+                        </textPath>
+                    </text>
+                </svg>
+            </span> -->
+            <img src="https://i.ibb.co/r5krrdz/logo.png" alt="logo" class="img2">
+        <div><button class="btn1">Sign In</button></div>
+        </div>
+        <div class="div2">
+            <h2>Unlimited movies, TV shows, and more</h2>
+            <p class="p1">Watch anywhere. Cancel anytime. </p>
+            <div>
+                <p class="p2">Ready to watch? Enter your email to create or restart your membership.</p>
+                <form action="" method="post">
+                    <input type="email" name="email" placeholder="Email address" class="int1"> <button class="btn2">Get started
+                    <img src="./images/arrow_forward_ios_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="img3">
+                    </button> 
+                </form>
+            </div> 
+        </div>
+    </header>
+    <div class="hr"></div>
+    <div class="div3">
+       <div class="div31">
+        <h2>Enjoy on your TV</h2>
+        <P>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast,<br>Apple TV, Blu-ray plyers, and more.
+        </P>
+       </div>
+       <div class="div4">
+           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png
+           " alt="" img="img4">
+           <video autoplay loop class="vid1">
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+           </video>
+       </div>
+    </div>
+    <div class="hr"></div>
+    <div class="div5">
+        <div class="div51">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+            <div class="div511">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png
+                " alt="">
+                <p>Stranger Things <br>
+                 <span class="sp2">Downloading...</span></p>
+            </div>
+        </div>
+       <div class="div52">
+        <h2>Download your shows to <br> watch offline</h2>
+        <p>Save your favorites easily and always have something to   <br>watch.</p>
+       </div>
+    </div>
+    <div class="hr"></div>
+    <div class="div6">
+        <h2>Watch <br>everywhere</h2>
+        <p>Stream unlimited movies and TV <br> shows on your phone, tablet, laptop,<br> and TV.</p>
+    </div>
+    <div class="hr"></div>
+    <div class="div7">
+        <img src="./images/image2.jpg" alt="">
+        <div class="div71">
+            <h2>Create profiles for kids</h2>
+            <p> Send kids on adventures with their favorite characters in <br> a space made just for them—free with your membership.</p>
+        </div>
+    </div>
+    <div class="hr"></div>
+    <div class="div8">
+        <h2>Frequently Asked Questions</h2>
+        <div class="div81">
+            <div  class="div811"  onclick="toggleDropdown()">
+                <div class="anchor">
+                    <p>What is Netflix?</p>
+                    <img src="./images/addicon.png" alt="" class="addicon" id="close">
+                </div>
+                <div class="dropdown_content" id="myDropdown">
+                    <p>
+                        Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,<br> documentaries, and more on thousands of internet-connected devices.
+                        <br>
+                        <br>
+                        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                    </p>
+                </div>
+            </div>
+            <div class="div811">
+                <div  class="anchor" onclick="toggleDropdown1()">
+                    <p>How much does Netflix cost?</p>
+                    <img src="./images/addicon.png" alt="" class="addicon">
+                </div>
+                <div class="dropdown_content" id="myDropdown1">
+                    <p>
+                        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₦2,200 to ₦7,000 a month. No extra costs, no contracts.
+                    </p>
+                </div>
+            </div>
+            <div class="div811">
+                 <div class="anchor" onclick="toggleDropdown2()">
+                    <p>Where can I watch?</p>
+                <img src="./images/addicon.png" alt="" class="addicon">
+                </div>
+                <div class="dropdown_content" id="myDropdown2">
+                    <p>
+                        Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com <br> from your personal computer or on any internet-connected device that offers the Netflix app, including <br>smart TVs, smartphones, tablets, streaming media players and game consoles. <br>
+                        <br>
+                        You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                    </p>
+                </div>
+            </div>
+            <div class="div811" >
+                <div class="anchor" onclick="toggleDropdown3()">
+                <p>How do I cancel?</p>
+                <img src="./images/addicon.png" alt="" class="addicon">
+                </div>
+                <div class="dropdown_content" id="myDropdown3">
+                    <p>
+                        Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                    </p>
+                </div>
+            </div>
+            <div class="div811">
+                <div class="anchor" onclick="toggleDropdown4()">
+                <p>What can I watch on Netflix?</p>
+                <img src="./images/addicon.png" alt="" class="addicon">
+               </div>
+                <div class="dropdown_content" id="myDropdown4">
+                    <p>
+                        Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix <br>
+                        originals, and more. Watch as much as you want, anytime you want.
+                    </p>
+                </div>
+            </div>
+            <div class="div811">
+                <div class="anchor" onclick="toggleDropdown5()">
+                    <p>Is Netflix good for kids?</p>
+                    <img src="./images/addicon.png" alt="" class="addicon" >
+                </div>
+                <div class="dropdown_content" id="myDropdown5">
+                    <p>
+                        The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+                        <br>
+                        <br>
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="div9">
+            <p class="p2 2ndp">Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="" method="post" class="form2">
+                <input type="email" name="email" placeholder="Email address" class="int1 int2"> <button class="btn2">Get started
+                <img src="./images/arrow_forward_ios_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" class="img3" style="margin-left: 6px;">
+                </button> 
+            </form>
+        </div>   
+    </div>
+    <div class="hr"></div>
+    <nav>
+        <div class="nav1">
+            <div  class="nav4">
+                <div><li><a href="#">Question? Contact us.</a></li></div>
+                <div style="margin-top: 17px;">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Speed Test</a></li>
+                </div>
+            </div>
+            <div  class="nav4" style="margin-top: 41px;">
+                <br>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Job</a></li>
+                <li><a href="#">Cookies Preference</a></li>
+                <li><a href="#">Legal Notice</a></li>
+            </div>
+            <div  class="nav4" style="margin-top: 41px;">
+                <br>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Only on Netflix</a></li>
+            </div>
+            <div class="nav4">
+                <br>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Contact us</a></li>
+            </div>
+        </div>
+        <div style="margin-left: 12rem; border: 1px solid white;width: 100px; border-radius: 6px; margin-top: 1rem;">
+            <img src="./images/translate_24dp_E8EAED_FILL0_wght100_GRAD0_opsz20.png" alt=""  style="width: 20px;">
+            <select name="language" id="select1" style="background-color: none;">
+                <option value="en" selected>English</option>
+            </select>
+        </div>
+        <div>
+            <p style="font-size: 14px; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 100; margin-left: 12rem; margin-top: 1.5rem;padding-bottom: 5rem;">Netflix Nigeria.</p>
+        </div>
+        <div>
+        </div>
+    </nav>
+    <script>
+        function toggleDropdown() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        function toggleDropdown1() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        }
+        function toggleDropdown2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+        function toggleDropdown3() {
+            document.getElementById("myDropdown3").classList.toggle("show");
+        }
+        function toggleDropdown4() {
+            document.getElementById("myDropdown4").classList.toggle("show");
+        }
+        function toggleDropdown5() {
+            document.getElementById("myDropdown5").classList.toggle("show");
+        }
+        // function toggleDropdown(){
+        //     document.getElementById("close").src = 'closeicon.png';
+        // }
+    </script>
+</body>
+</body>
+</html>
+
+
+
